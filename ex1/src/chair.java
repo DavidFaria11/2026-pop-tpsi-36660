@@ -1,4 +1,9 @@
-public class chair {
+public class Person {
+    String name;
+    int age;
 
-    String material;;
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 }
