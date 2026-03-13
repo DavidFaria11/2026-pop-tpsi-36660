@@ -2,9 +2,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("\n");
-
-
         Aluno aluno1 = new Aluno();
         aluno1.setNome("João Silva");
         aluno1.setCidade("Braga");
