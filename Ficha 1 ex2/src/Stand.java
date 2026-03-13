@@ -45,7 +45,7 @@ public class Stand {
         return totalVeiculos;
     }
 
-    
+
     public void listarVeiculos(String marca) {
         boolean encontrou = false;
         System.out.println("\n--- Veículos da marca \"" + marca + "\" ---");
