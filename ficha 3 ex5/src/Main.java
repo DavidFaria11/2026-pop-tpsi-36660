@@ -1,11 +1,10 @@
 import java.util.Arrays;
 import java.util.Comparator;
 
-
 public class Main {
     public static void main(String[] args) {
 
-        // c) Array de alunos
+
         Aluno[] alunos = {
                 new Aluno("Carlos", "Silva", 22),
                 new Aluno("Ana", "Costa", 19),

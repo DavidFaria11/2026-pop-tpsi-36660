@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="55082305-a813-4bb0-99c8-dde38a9e5fbf" name="Changes" comment="tt">
-      <change beforePath="$PROJECT_DIR$/src/Aluno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ficha 3 ex6/src/Artigo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ficha 3 ex6/src/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ficha 3 ex6/src/IArtigo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ficha 3 ex6/src/ListaDeClientes.java" beforeDir="false" />
+    <list default="true" id="4e74c77d-9868-43ba-b189-e96e874df6ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ficha3_ex5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ficha 3 ex6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ficha 3 ex6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ficha 3 ex6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ficha 3 ex6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ficha 3 ex6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ficha 3 ex6/ficha 3 ex6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ficha 3 ex6/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,29 +47,29 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="3C9swmhDuV7JwHpdL4r288zQJUD" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3CA2z6Mt43PRFGh8gtxpCJn0j9z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/david/OneDrive/Documentos/GitHub/2026-pop-tpsi-36660/ficha 3 ex5/src/Main.java&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/david/OneDrive/Documentos/2026-pop-tpsi-36660/ficha 3 ex5/src/Main.java",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,25 +79,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="55082305-a813-4bb0-99c8-dde38a9e5fbf" name="Changes" comment="" />
-      <created>1775809362998</created>
+      <changelist id="4e74c77d-9868-43ba-b189-e96e874df6ef" name="Changes" comment="" />
+      <created>1775814315521</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1775809362998</updated>
+      <updated>1775814315521</updated>
     </task>
-    <task id="LOCAL-00001" summary="tt">
-      <option name="closed" value="true" />
-      <created>1775812987112</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1775812987112</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="tt" />
-    <option name="LAST_COMMIT_MESSAGE" value="tt" />
   </component>
 </project>
