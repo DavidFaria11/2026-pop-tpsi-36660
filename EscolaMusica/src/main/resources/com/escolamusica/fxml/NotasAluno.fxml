@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.escolamusica.controller.NotasAlunoController"
+      spacing="15" style="-fx-background-color: #ecf0f1;">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="📊 As Minhas Notas"
+           style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+    <TableView fx:id="tabelaNotas" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="colId" text="ID" prefWidth="50"/>
+            <TableColumn fx:id="colCurso" text="Curso" prefWidth="200"/>
+            <TableColumn fx:id="colNota" text="Nota" prefWidth="100"/>
+            <TableColumn fx:id="colData" text="Data" prefWidth="120"/>
+        </columns>
+    </TableView>
+
+</VBox>

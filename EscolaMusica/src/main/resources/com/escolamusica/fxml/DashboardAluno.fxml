@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.escolamusica.controller.DashboardAlunoController"
+            style="-fx-background-color: #ecf0f1;">
+
+    <left>
+        <VBox spacing="5" style="-fx-background-color: #8e44ad; -fx-pref-width: 200px;">
+            <padding>
+                <Insets top="20" right="10" bottom="20" left="10"/>
+            </padding>
+
+            <Label text="🎵 Escola de Música"
+                   style="-fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold;"/>
+            <Label text="Aluno"
+                   style="-fx-text-fill: #ecf0f1; -fx-font-size: 12px;"/>
+
+            <Separator/>
+
+            <Button text="📋 As Minhas Matrículas" onAction="#mostrarMatriculas"
+                    style="-fx-background-color: transparent; -fx-text-fill: white;
+                           -fx-font-size: 13px; -fx-pref-width: 180px; -fx-cursor: hand;"/>
+
+            <Button text="📊 As Minhas Notas" onAction="#mostrarNotas"
+                    style="-fx-background-color: transparent; -fx-text-fill: white;
+                           -fx-font-size: 13px; -fx-pref-width: 180px; -fx-cursor: hand;"/>
+
+            <Separator/>
+
+            <Button text="🚪 Logout" onAction="#handleLogout"
+                    style="-fx-background-color: #e74c3c; -fx-text-fill: white;
+                           -fx-font-size: 13px; -fx-pref-width: 180px; -fx-cursor: hand;"/>
+        </VBox>
+    </left>
+
+    <center>
+        <VBox alignment="CENTER" spacing="20">
+            <padding>
+                <Insets top="40" right="40" bottom="40" left="40"/>
+            </padding>
+            <Label text="Bem-vindo, Aluno!"
+                   style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+            <Label text="Seleciona uma opção no menu lateral."
+                   style="-fx-font-size: 14px; -fx-text-fill: #7f8c8d;"/>
+        </VBox>
+    </center>
+
+</BorderPane>

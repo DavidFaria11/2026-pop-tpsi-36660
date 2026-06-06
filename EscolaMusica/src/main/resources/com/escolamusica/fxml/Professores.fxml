@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.escolamusica.controller.ProfessoresController"
+      spacing="15" style="-fx-background-color: #ecf0f1;">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <HBox alignment="CENTER_LEFT" spacing="10">
+        <Label text="👨‍🏫 Gestão de Professores"
+               style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+        <Button text="+ Adicionar Professor" onAction="#handleAdicionar"
+                style="-fx-background-color: #27ae60; -fx-text-fill: white;
+                       -fx-font-size: 13px; -fx-cursor: hand;"/>
+    </HBox>
+
+    <TableView fx:id="tabelaProfessores" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="colId" text="ID" prefWidth="50"/>
+            <TableColumn fx:id="colNome" text="Nome" prefWidth="200"/>
+            <TableColumn fx:id="colEmail" text="Email" prefWidth="200"/>
+            <TableColumn fx:id="colTelemovel" text="Telemóvel" prefWidth="120"/>
+            <TableColumn fx:id="colEspecialidade" text="Especialidade" prefWidth="150"/>
+        </columns>
+    </TableView>
+
+    <HBox spacing="10">
+        <Button text="✏️ Editar" onAction="#handleEditar"
+                style="-fx-background-color: #3498db; -fx-text-fill: white;
+                       -fx-font-size: 13px; -fx-cursor: hand;"/>
+        <Button text="🗑️ Apagar" onAction="#handleApagar"
+                style="-fx-background-color: #e74c3c; -fx-text-fill: white;
+                       -fx-font-size: 13px; -fx-cursor: hand;"/>
+    </HBox>
+
+</VBox>

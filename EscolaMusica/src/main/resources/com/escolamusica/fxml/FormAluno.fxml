@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.escolamusica.controller.FormAlunoController"
+      spacing="15" style="-fx-background-color: #ecf0f1;">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label text="Dados do Aluno"
+           style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+    <Label text="Nome:"/>
+    <TextField fx:id="txtNome" promptText="Nome completo"/>
+
+    <Label text="Email:"/>
+    <TextField fx:id="txtEmail" promptText="Email"/>
+
+    <Label text="Telemóvel:"/>
+    <TextField fx:id="txtTelemovel" promptText="Telemóvel"/>
+
+    <Label text="Data de Nascimento (AAAA-MM-DD):"/>
+    <TextField fx:id="txtDataNasc" promptText="Ex: 2000-01-15"/>
+
+    <Label fx:id="lblErro" text=""
+           style="-fx-text-fill: #e74c3c;"/>
+
+    <HBox spacing="10">
+        <Button text="💾 Guardar" onAction="#handleGuardar"
+                style="-fx-background-color: #27ae60; -fx-text-fill: white;
+                       -fx-font-size: 13px; -fx-cursor: hand;"/>
+        <Button text="❌ Cancelar" onAction="#handleCancelar"
+                style="-fx-background-color: #e74c3c; -fx-text-fill: white;
+                       -fx-font-size: 13px; -fx-cursor: hand;"/>
+    </HBox>
+
+</VBox>
